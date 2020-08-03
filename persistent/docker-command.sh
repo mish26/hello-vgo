@@ -8,3 +8,4 @@ docker container run -d --rm --name mysql \
 --volumes-from mysql-data \
 mysql5.7
 
+docker container exec -it mysql mysql -u root -p volume_test
